@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 workspace.code-workspace
+extra_files/
 # C extensions
 *.so
 
