@@ -8,10 +8,7 @@ class consult(forms.ModelForm):
     date = forms.DateField(
         verbose_name='Data da consulta'
         )
-    created_at = forms.DateTimeField(
-        verbose_name='Criado em ', 
-        auto_now_add=True
-        )
+
     market = forms.MultipleChoiceField(
         queryset = Market.objects.all()
         )
