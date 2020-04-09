@@ -3,7 +3,7 @@ from models import Market
 
 
 
-class consult(forms.ModelForm):
+class Consult(forms.ModelForm):
     ''' colects the infos for consulting the database'''
     date = forms.DateField(
         verbose_name='Data da consulta'
